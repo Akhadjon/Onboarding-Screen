@@ -63,7 +63,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="getStartedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="g3I-XL-Hjt"/>
+                                    <action selector="getStartedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R6L-5O-dsP"/>
                                 </connections>
                             </button>
                         </subviews>

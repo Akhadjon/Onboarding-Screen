@@ -42,7 +42,9 @@ class WelcomeViewController: UIViewController, UICollectionViewDataSource,UIColl
     
     @IBAction func getStartedButtonTapped(_ sender:Any){
         Core.shared.setIsNotNewUser()
-        self.dismiss(animated:true,completion:nil)
+        print(Core.shared.isNewUser())
+        dismiss(animated: true, completion: nil)
+       
     }
     
     //MARK:- CollectionView data Source & CollectionView Flow delegates
